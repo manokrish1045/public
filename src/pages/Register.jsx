@@ -135,7 +135,7 @@ const FormContainer = styled.div`
   justify-content: center;
   gap: 1rem;
   align-items: center;
-  background-color: #131324;
+  background-color: rgb(67 210 62 / 92%);
   .brand {
     display: flex;
     align-items: center;
@@ -154,14 +154,14 @@ const FormContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background-color: #00000076;
+    background-color:rgb(0 0 0 / 56%);
     border-radius: 2rem;
     padding: 3rem 5rem;
   }
   input {
-    background-color: transparent;
+    background-color: rgb(255 255 255);
     padding: 1rem;
-    border: 0.1rem solid #4e0eff;
+    border: 0.1rem solid rgb(143 208 75);
     border-radius: 0.4rem;
     color: white;
     width: 100%;
@@ -172,8 +172,8 @@ const FormContainer = styled.div`
     }
   }
   button {
-    background-color: #4e0eff;
-    color: white;
+    background-color: rgb(144 255 56);
+    color: #110505;
     padding: 1rem 2rem;
     border: none;
     font-weight: bold;
@@ -189,7 +189,7 @@ const FormContainer = styled.div`
     color: white;
     text-transform: uppercase;
     a {
-      color: #4e0eff;
+      color: rgb(31, 255, 14);
       text-decoration: none;
       font-weight: bold;
     }

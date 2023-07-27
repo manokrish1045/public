@@ -129,7 +129,7 @@ const FormContainer = styled.div`
     padding: 1rem;
     border: 0.1rem solid rgb(146 255 13);
     border-radius: 0.4rem;
-    color: white;
+    color: #1b1818;
     width: 100%;
     font-size: 1rem;
     &:focus {
